@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    min-height: 100vh;
+}
+
+main {
+    position: relative;
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 390px;
+}
+
+.pokemon-image {
+    position: absolute;
+    bottom: 40%;
+    left: 43%;
+    transform: translate(-30%, -90%);
+    height: 13%;
+}
+
+.text-pokemon {
+    font-size: clamp(8px, 6vw, 27px);
+    color: black;
+    position: absolute;
+    bottom: 39%;
+    left: 32%;
+    text-transform: capitalize;
+}
+
+
+.procurarpoke {
+    position: absolute;
+    bottom: 28%;
+    left: 15%;
+    width: 63%;
+}
+
+.btnCssPokeAnte {
+    display: flex;
+    color: #b81414;
+    padding: 10px 15px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.btnCssPokeProx {
+    display: flex;
+    color: #b81414;
+    padding: 10px 15px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: .5s;
+    margin-left: 20px;
+}
+
+.btnCssPokeAnte:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.btnCssPokeProx:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.buttons {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    bottom: 10%;
+    left: 20%;
+
+}
