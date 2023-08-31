@@ -1,2 +1,4 @@
-# Pokedex feita usando conceitos de HTML, CSS e JS
-https://cssgustavo.github.io/Pokedex/
+# Pokedex com JS 👨‍💻
+Essa é uma pokedex que consome a PokeApi, bem simple e objetiva, mas me rendeu bons aprendizados sobre consumir api's...
+
+Deploy: https://cssgustavo.github.io/Pokedex/
